@@ -15,7 +15,7 @@
 
   repoInfo.getRepos = function(callback) {
     return $.ajax({
-      url: 'https://api.github.com/user/repos',
+      url: 'https://api.github.com/users/jisenber/repos',
       type: 'GET',
       headers: {'Authorization': 'token ' + githubToken},
       success: function(data) {
