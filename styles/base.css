@@ -1,0 +1,45 @@
+html {
+  background-color: #EBCEAC;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  border-radius: 30%;
+  width: 30%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+h1 {
+  font-size: 3em;
+  padding: 1%;
+  max-width: 100%
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2.5em;
+  padding: 1%;
+}
+
+h3 {
+  font-size: 1.5;
+  padding: 1%;
+}
+
+h4 {
+  font-size: 0.6em;
+  padding-bottom: 1em;
+}
+
+h5 {
+  font-size: 0.3em;
+}

@@ -1,0 +1,43 @@
+[
+  {"projectName":"World Capitals Game",
+    "language":"Vanilla JavaScript",
+    "image": "images/capitals_main.png",
+    "hours": 120,
+    "description": "This was a web app that I wrote in vanilla JavaScript after self-teaching myself some basic JavaScript. I used this application to skip the beginner JavaScript class offered by Code Fellows and place directly into their intermediate level course."
+  },
+
+  {"projectName":"Pak Adventures",
+  "language":"Python",
+  "image": "images/pollack.png",
+  "hours": 25,
+  "description": "This is a very simple Python game played on the command line that takes user input step by step in an effort to accomplish a goal and win the game by doing so. The user is choices and each step and navigates the game through each choice that is made"
+},
+
+{"projectName": "Smoking Cessation Manuscript",
+  "language": "English",
+  "image": "images/cig.png",
+  "hours": 500,
+  "description": "I am very interested in scientfic research so I spent roughly a year and a half putting together a study on smoking cessation amongst Medicare Advantage recipients in the United States. Medicare recently implmented major smoking cessation programs and reimbursements that have grown in scope and services offered since 2005. I authored the manuscript with a professor and junior faculty member of UW, and two professors from Oregon Health and Science University (OHSU)."
+},
+
+{"projectName": "My Portfolio",
+  "language": "JavaScript",
+  "image": "images.portfolio.png",
+  "hours": 50,
+  "description": "You're looking at it!"
+},
+
+{"projectName": "Fill space",
+  "language": "Gibbrish",
+  "image": "images/fatsuit.png",
+  "hours": 1,
+  "description": "wgajfksgdgkdfgaglkhgjkhd;slkdflwgaj fksgdgkdfgaglkhgjkhd;slkdfl wgajfksgdgkdfgaglkhgjkhd;slkdflwgajfksgdgk dfgaglkhgjkhd;slkdfl wgajfksgdgkdfgaglkhgjkhd;slkdflwgajfksg dgkdfgaglkhgjkhd;slkdflwgajfksgdgkdfgaglkhgjkh d;slkdfl wgajfksgdgkdfgaglkhgjkhd;slkdflwgajfks gdgkdfgaglkhgjkhd;slkdflwgajfksgdgkdfg aglkhgjkhd;slkdfl wgajfksgdgkdfgaglkhgj khd;slkdflwgajfksgdgkdfgaglkhgjkhd;sl kdflwgajfksgdgkdfgaglkhg jkhd;slkdfl wgajfksgdgkdfgaglkhgj khd;slkdflwgajfksgdgkdfg aglkhgjkhd;slkdflwgajfksgdgkdfgaglkhg jkhd;slkdfl wgajfksgdgkdfgaglkhgjkhd;slkdflwg ajfksgdgkdfgaglkhgjkhd;slkdflwg ajfksgdgkdfgaglkhgjkhd; slkdfl wgajfksgdgkdfgaglkhgjkhd;slk dflwgajfksgdgkdfgaglkhgj khd;slkdflwgajfksgdg kdfgaglkhgjkhd;slkdfl wgajfksgdgkdfgaglk hgjkhd;slkdflwgajfksgdgkdf gaglkhgjkhd;slkdflwgajf ksgdgkdfgaglkh gjkhd;slkdfl"
+},
+
+{"projectName": "Another project",
+  "language": "Some language",
+  "image": "images/construction.png",
+  "hours": 90,
+  "description": "Top Secret"
+}
+]

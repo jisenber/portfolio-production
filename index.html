@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob Isenberg's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel = "stylesheet" href="vendor/styles/octicons/octicons.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/modules.css">
+    <link rel="stylesheet" href="styles/state.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+    <script id="jobAddScript" type="text/x-handlebars-template">
+            <ul>
+              <li><b>Position:</b> {{position}} </li>
+              <li><b>Institution:</b> {{institution}}</li>
+              <li><b>Boss:</b> {{boss}} </li>
+              <li class = "website"><b>Website:</b> {{{website}}} </li>
+              <li><b>Role:</b> {{role}} </li>
+              <br></ul>
+            </script>
+    <script id="previewScript" type="text/x-handlebars-template">
+      <br><p>{{fullName}}</p><br>
+      <p>{{email}}</p><br>
+      <p>{{comment}}</p>
+  </script>
+  <script id="projDetails" type="text/x-handlebars-template">
+    <ul>
+      <li><br><h4>Language: {{language}}</h4></li>
+      <li><h4>Description: {{description}}</h4></li>
+      <li><h4>Hours Worked: {{hours}}</h4></li>
+    </ul>
+  </script>
+  <script id ="about-repo" type="text/x-handlebars-template">
+    <ul>
+      <li><br><a href="{{html_url}}" target="_blank"><h3>{{name}}</h3></a></li>
+    </ul>
+  </script>
+      <!-- Going to incorporate Handlebars soon -->
+  </head>
+  <body>
+    <h1 class = "headline"> Welcome to Jacob Isenberg's Portfolio </h1>
+    <hr></hr>
+    <div class = "navContainer">
+    <nav>
+      <span class = "octicon octicon-list-unordered" id = "menuIcon"></span>
+      <ul id = "navBar">
+        <li class = "nav" data-index="home"><a href= "/"><span class ="octicon octicon-home"></span> home</a></li>
+        <li class = "nav" data-index="about"><a href= "/about"><span class = "octicon octicon-mortar-board"></span> about</a></li>
+        <li class = "nav" data-index="experience"><a href= "/experience"><span class ="octicon octicon-watch"></span> experience</a></li>
+        <li class = "nav" data-index="projects"><a href= "/projects"><span class ="octicon octicon-paintcan"></span> projects</a></li>
+        <li class = "link" data-index="facebook"><a href= "https://www.facebook.com/jacob.isenberg.7">Facebook</a></li>
+        <li class = "link" data-index="github"><a href="https://github.com/jisenber">Github</a></li>
+        <li class = "nav" data-index="contact"><a href= "/contact"><span class ="octicon octicon-comment"></span> contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <section id = "home">
+    <img src = "images/jacob_picture.png" class = "headshot">
+  </section>
+    <section id = "about">
+      <h2><p>Jacob's Wonderful Repos</p></h2><br>
+      <div id = "repoList">
+      </div>
+    </section>
+    <section id = "projects">
+      <div id ="projectList">
+      </div>
+      <div id = 'projFooter'>
+      </div>
+    </section>
+    <section id = "experience">
+      <h2>Work Experience</h2><br>
+              <div id = "jobList">
+          </div>
+        </section>
+        <section id  = "contact">
+          <form action="#" id="new-form">
+          <label>
+            <input type="text" id="userName" placeholder="Your Name" required><br><br>
+          </label>
+          <label>
+            <input type="text" id="userEmail" placeholder="Your Email" required><br><br>
+          </label>
+          <label>
+            <textarea id="userComment" rows="8" cols="40" placeholder="Your Message"required></textarea><br><br>
+          </label>
+          <button type="submit" form="new-form" value="Preview" id="previewButton">Preview</button><span>&nbsp;&nbsp;</span>
+          <button type="submit" form="new-form" value="Submit" id ="submitButton">Submit</button>
+        </form>
+          <div id = "messagePreview">
+
+          </div>
+        </section>
+    </body>
+    <footer>
+      <script src="/vendor/scripts/page.js"></script>
+      <script src="/scripts/jobAdd.js"></script>
+      <script src="/scripts/navigation.js"></script>
+      <script src="/scripts/navController.js"></script>
+      <script src="githubToken.js"></script>
+      <script src="/scripts/repos.js"></script>
+      <script src="/scripts/repoView.js"></script>
+      <script src="/scripts/routes.js"></script>
+    </footer>
+</html>

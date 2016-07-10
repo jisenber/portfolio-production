@@ -1,0 +1,32 @@
+#menuIcon {
+  float: right;
+  font-size: 3em;
+}
+
+.headshot {
+  border-radius: 30%;
+  width: 30%;
+  min-width: 30%;
+  float: left;
+}
+
+#userComment {
+  width: 60%;
+  border-radius: 0.5em;
+  border-color: #000000;
+  padding: 0.5em;
+}
+
+input {
+  border-radius: 0.5em;
+  border-color: #000000;
+  padding: 0.5em;
+}
+
+span.projText {
+  text-decoration: none;
+}
+
+.breakUp {
+  max-width: 30%;
+}
