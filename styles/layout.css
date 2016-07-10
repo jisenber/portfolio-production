@@ -1,0 +1,40 @@
+section#home{
+  width: 80%;
+}
+
+#navBar {
+  display: none;
+}
+
+.projects {
+  display: block;
+  font-size: 1.5em;
+  font-family: Arial;
+  background-color: #C5E3BF;
+  max-width: 65%;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+button {
+  font-size: 1em;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+
+@media only screen and (min-width: 640px) {
+
+  .navContainer {
+    float: right;
+  }
+
+  #navBar {
+      display: block;
+      padding-bottom: 0.1em;
+      margin: 0.3em
+    }
+
+    #menuIcon {
+      display: none;
+    }
+  }

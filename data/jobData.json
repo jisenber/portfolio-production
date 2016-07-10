@@ -1,0 +1,22 @@
+[
+  {"position":"Project Coordinator",
+  "institution":"Fred Hutchinson Cancer Research Center",
+  "boss":"Hans-Peter Kiem, MD, PhD",
+  "website":"<a href = 'http://www.fredhutch.org' class = 'website'>fredhutch.org</a>",
+  "role":"I helped with the implementation of clinical research projects"
+},
+
+  {"position":"Staff Assistant",
+    "institution":"US House of Representatives",
+    "boss":"Jim McDermott",
+    "website":"<a href = 'mcdermott.house.gov' class = 'website'>mcdermott.house.gov</a>",
+    "role":"I assisted constituents on issues with federal agencies"
+  },
+
+  {"position":"Laboratory Assistant",
+    "institution":"Puget Sound Restoration Fund",
+    "boss":"Betty Smith",
+    "website":"<a href = 'restorationfund.org' class = 'website'>restorationfund.org</a>",
+    "role":"I helped biologists with the restoration of native pinto abalone"
+  }
+  ]

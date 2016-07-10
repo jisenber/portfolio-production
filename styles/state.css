@@ -1,0 +1,21 @@
+
+.nav a:link, .link a:link, .nav a:visited, .link a:visited {
+    display: block;
+    margin-right: 1em;
+    font-weight:bold;
+    text-decoration: none;
+    color:#FFFFFF;
+    background-color:#990033;
+    text-align:center;
+    padding: 0.5em;
+    text-transform:uppercase;
+}
+
+
+ .nav a:hover, .link a:active, .nav a:active, .link a: {
+    background-color:#802000
+}
+
+#projectList span :hover {
+  background-color:#55AE3A;
+}

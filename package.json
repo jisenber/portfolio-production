@@ -1,0 +1,22 @@
+{
+  "name": "301n3-portfolio",
+  "version": "1.0.0",
+  "description": "a repository for Jacob Isenberg's Professional Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jisenber/301n2-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jisenber/301n2-portfolio/issues"
+  },
+  "homepage": "https://github.com/jisenber/301n2-portfolio#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
